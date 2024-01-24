@@ -39,11 +39,11 @@ export default function Home() {
           </button>
         </div>
       </nav>
-      <div className="body">
+      <div className="body mx-4">
 
       <div className="relative  z-0 font-bold text-center flex flex-col justify-center  container mx-auto items-center pt-32 lg:pt-48 ">
         <div className="md:text-[68px]  text-[30px] sm:text-[68px] text-3xl font-bold tracking-tighter  leading-[36px] text-left lg:text-center hero">
-          Unlimited design, with flat monthly<br className="xl:flex hidden" />
+          Unlimited design, with flat monthly <br className="xl:flex hidden" />
           fee <span className="text-[#ea580c]">.</span>
         </div>
         <div className="flex items-center justify-center font-normal my-12">
@@ -119,7 +119,7 @@ export default function Home() {
 </div>
 
 </marquee>
-<marquee behavior="scroll" direction="left">
+<marquee behavior="scroll" direction="right">
 <div className="flex sm:space-x-4 space-x-2 sm:mb-8 mb-4">
 
 <Image
@@ -182,6 +182,98 @@ export default function Home() {
         When you hire us, you will get the whole team with all of our creative power. Not just 1-man-show with couple of outsourced designers like many others.
         </p>
       </div>
+      </div>
+      <div className="grid sm:grid-cols-3 grid-cols-1 gap-4 p-2">
+        <div className="container mx-auto sm:p-8 p-6 border rounded-xl hover:-translate-y-1 hover:border-orange-300 duration-300">
+          <div className="flex">
+
+            <Image src="/icon-feature-1.webp"
+            alt=""
+            width="50" height="30"
+            className="w-auto"
+            />
+
+<h2 className="font-medium text-xl tracking-tight font-bold  py-2 px-4">Unlimited design</h2>
+          </div>
+          <p className="text-[#475569] leading-[24px] text-[16px] p-4 font-normal">
+          Have lots of brilliant ideas that you want to realize? Leave it all to us. Request all the designs you want with unlimited design request! Go crazy!
+          </p>
+        </div>
+        <div className="container mx-auto sm:p-8 p-6 border rounded-xl hover:-translate-y-1 hover:border-orange-300 duration-300">
+          <div className="flex">
+
+            <Image src="/icon-feature-2.webp"
+            alt=""
+            width="50" height="30"
+            className="w-auto"
+            />
+
+<h2 className="font-medium text-xl tracking-tight font-bold  py-2 px-4">Fixed monthly rate</h2>
+          </div>
+          <p className="text-[#475569] leading-[24px] text-[16px] p-4 font-normal">
+          Have lots of brilliant ideas that you want to realize? Leave it all to us. Request all the designs you want with unlimited design request! Go crazy!
+          </p>
+        </div>
+        <div className="container mx-auto sm:p-8 p-6 border rounded-xl hover:-translate-y-1 hover:border-orange-300 duration-300">
+          <div className="flex">
+
+            <Image src="/icon-feature-1.webp"
+            alt=""
+            width="50" height="30"
+            className="w-auto"
+            />
+
+<h2 className="font-medium text-xl tracking-tight font-bold  py-2 px-4">Unlimited changes</h2>
+          </div>
+          <p className="text-[#475569] leading-[24px] text-[16px] p-4 font-normal">
+          Have lots of brilliant ideas that you want to realize? Leave it all to us. Request all the designs you want with unlimited design request! Go crazy!
+          </p>
+        </div>
+        <div className="container mx-auto sm:p-8 p-6 border rounded-xl hover:-translate-y-1 hover:border-orange-300 duration-300">
+          <div className="flex">
+
+            <Image src="/icon-feature-4.webp"
+            alt=""
+            width="50" height="30"
+            className="w-auto"
+            />
+
+<h2 className="font-medium text-xl tracking-tight font-bold  py-2 px-4">Unlimited design</h2>
+          </div>
+          <p className="text-[#475569] leading-[24px] text-[16px] p-4 font-normal">
+          Have lots of brilliant ideas that you want to realize? Leave it all to us. Request all the designs you want with unlimited design request! Go crazy!
+          </p>
+        </div>
+        <div className="container mx-auto sm:p-8 p-6 border rounded-xl hover:-translate-y-1 hover:border-orange-300 duration-300">
+          <div className="flex">
+
+            <Image src="/icon-feature-5.webp"
+            alt=""
+            width="50" height="30"
+            className="w-auto"
+            />
+
+<h2 className="font-medium text-xl tracking-tight font-bold  py-2 px-4">Fixed monthly rate</h2>
+          </div>
+          <p className="text-[#475569] leading-[24px] text-[16px] p-4 font-normal">
+          Have lots of brilliant ideas that you want to realize? Leave it all to us. Request all the designs you want with unlimited design request! Go crazy!
+          </p>
+        </div>
+        <div className="container mx-auto sm:p-8 p-6 border rounded-xl hover:-translate-y-1 hover:border-orange-300 duration-300">
+          <div className="flex">
+
+            <Image src="/icon-feature-6.webp"
+            alt=""
+            width="50" height="30"
+            className="w-auto"
+            />
+
+<h2 className="font-medium text-xl tracking-tight font-bold  py-2 px-4">Unlimited changes</h2>
+          </div>
+          <p className="text-[#475569] leading-[24px] text-[16px] p-4 font-normal">
+          Have lots of brilliant ideas that you want to realize? Leave it all to us. Request all the designs you want with unlimited design request! Go crazy!
+          </p>
+        </div>
       </div>
     </main>
   );
