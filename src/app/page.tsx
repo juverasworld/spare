@@ -41,10 +41,10 @@ export default function Home() {
       </nav>
       <div className="body">
 
-      <div className="relative  z-0 font-bold text-center flex flex-col justify-center  container mx-auto items-center pt-32 lg:pt-24 ">
-        <div className="md:text-[68px]  text-[30px]  leading-[36px] text-left lg:text-center hero">
-          Unlimited design, with flat monthly <br className="xl:flex hidden" />
-          fee.
+      <div className="relative  z-0 font-bold text-center flex flex-col justify-center  container mx-auto items-center pt-32 lg:pt-48 ">
+        <div className="md:text-[68px]  text-[30px] sm:text-[68px] text-3xl font-bold tracking-tighter  leading-[36px] text-left lg:text-center hero">
+          Unlimited design, with flat monthly<br className="xl:flex hidden" />
+          fee <span className="text-[#ea580c]">.</span>
         </div>
         <div className="flex items-center justify-center font-normal my-12">
           <ul className="list-none lg:mr-12 mr-2 lg:flex inline">
@@ -161,7 +161,7 @@ export default function Home() {
 </div>
 </marquee>
 <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent">
-<button className=" backdrop-filter backdrop-blur-lg bg-white/30 absolute bottom-0 mb-10 left-1/2 transform -translate-x-1/2 sm:px-6 px-4 sm:py-4 py-3 bg-white text-black sm:text-xl text-base font-medium rounded-xl shadow-md hover:bg-orange-50 hover:-translate-y-1 duration-300 text-[20px] leading-[28px] px-[20px] py-[13px] rounded-[5px] font-bold ">View Portfolio</button>
+<button className=" backdrop-filter backdrop-blur-lg bg-white/30 absolute bottom-10 mb-10 left-1/2 transform -translate-x-1/2 sm:px-6 px-4 sm:py-4 py-3 bg-white text-black sm:text-xl text-base font-medium rounded-xl shadow-md hover:bg-orange-50 hover:-translate-y-1 duration-300 text-[20px] leading-[28px] px-[20px] py-[13px] rounded-[5px] font-bold ">View Portfolio</button>
 </div>
   </div>
       <div className="my-16 flex items-center justify-center mx-auto ">
@@ -172,6 +172,15 @@ export default function Home() {
          height="1000"
          className=" "
        />
+      </div>
+      <div className="items-center text-center flex justify-center container mx-auto flex-col">
+        <p className="sm:text-4xl text-2xl font-bold py-4 tracking-tighter">
+        Great design, zero-hassle.
+
+        </p>
+        <p className="text-slate-600 sm:px-[450px] py-4 text-base px-4">
+        When you hire us, you will get the whole team with all of our creative power. Not just 1-man-show with couple of outsourced designers like many others.
+        </p>
       </div>
       </div>
     </main>
