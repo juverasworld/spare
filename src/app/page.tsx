@@ -178,12 +178,12 @@ export default function Home() {
         Great design, zero-hassle.
 
         </p>
-        <p className="text-slate-600 sm:px-[450px] py-4 text-base px-4">
+        <p className="text-slate-600 xl:px-[450px] lg:px-[200px] py-4 text-base px-4">
         When you hire us, you will get the whole team with all of our creative power. Not just 1-man-show with couple of outsourced designers like many others.
         </p>
       </div>
       </div>
-      <div className="grid sm:grid-cols-3 grid-cols-1 gap-4 p-2">
+      <div className="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-4 p-2">
         <div className="container mx-auto sm:p-8 p-6 border rounded-xl hover:-translate-y-1 hover:border-orange-300 duration-300">
           <div className="flex">
 
