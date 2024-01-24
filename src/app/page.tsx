@@ -83,7 +83,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="marque z-0 relative">
+      <div className="marque z-0 my-10 relative">
   <marquee behavior="scroll" direction="left">
 <div className="flex sm:space-x-4 space-x-2 sm:mb-8 mb-4">
 <Image
@@ -275,6 +275,25 @@ export default function Home() {
           </p>
         </div>
       </div>
+      <div className="relative mt-16 flex items-center justify-center">
+          <button className="text-[20px] sm:px-[32px] sm:py-[22px] py-4 px-14 sm:text-xl text-lg tracking-tight font-medium text-center btn-gradient-orenji hover:text-[#c2410c] hover:border-[#c2410c] hover:-translate-y-1 hover:scale-100 duration-300 leading-[28px] bg-[#fff]  text-[#ea580c] border-[1px] border-[#ea580c] py-6 px-8 rounded-full">
+           What makes us different {">"}
+          </button>
+        
+        </div>
+        <div className="">
+        <div className="items-center text-center flex justify-center container mx-auto flex-col">
+        <p className="sm:text-4xl text-2xl font-bold py-4 tracking-tighter">
+        How does it work.
+
+        </p>
+        <p className="text-slate-600 xl:px-[450px] lg:px-[200px] py-4 text-base px-4">
+        
+No overcomplicated workflow, no unnecessary bureaucracy or pappers. Let's go straight to realizing your ideas and tackling your business problems.
+        </p>
+      </div>
+        </div>
+       
     </main>
   );
 }
