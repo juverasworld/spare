@@ -5,13 +5,13 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="">
-      <nav className="py-5 border-b-[1px] w-[100%] fixed text-[16px] leading-[24px] ">
+      <nav className="py-5 border-b-[1px] w-[100%] fixed z-24 text-[16px] leading-[24px] ">
         <div className="flex w-[100%] items-center justify-between pr-1">
           <Link href="/">
             <Image
               src="/logo.svg"
               alt=""
-              width="10"
+              width="400"
               height="10"
               className="w-auto"
             />
@@ -39,8 +39,10 @@ export default function Home() {
           </button>
         </div>
       </nav>
-      <div className="relative font-bold text-center flex flex-col justify-center lg:h-screen h-auto  items-center pt-64 lg:pt-24 ">
-        <div className="md:text-[68px]  text-[30px]  leading-[36px]  hero">
+      <div className="body">
+
+      <div className="relative  z-0 font-bold text-center flex flex-col justify-center  container mx-auto items-center pt-32 lg:pt-24 ">
+        <div className="md:text-[68px]  text-[30px]  leading-[36px] text-left lg:text-center hero">
           Unlimited design, with flat monthly <br className="xl:flex hidden" />
           fee.
         </div>
@@ -71,7 +73,7 @@ export default function Home() {
           </ul>
         </div>
         <div className="relative  ">
-          <button className="text-[20px]  leading-[28px] bg-[#ea580c] text-[#fff] py-6 px-8 rounded-xl">
+          <button className="text-[20px] sm:px-[32px] sm:py-[22px] py-4 px-14 sm:text-xl text-lg tracking-tight font-medium text-center btn-gradient-orenji hover:shadow-xl hover:shadow-orange-200/50 hover:-translate-y-1 hover:scale-100 duration-300 leading-[28px] bg-[#ea580c] text-[#fff] py-6 px-8 rounded-xl">
             Start up your dream Project
           </button>
           <p className="mt-10">
@@ -80,6 +82,97 @@ export default function Home() {
             <span className=" text-[16px] leading-[24px] font-normal">Get in touch </span>
           </p>
         </div>
+      </div>
+      <div className="marque z-0 relative">
+  <marquee behavior="scroll" direction="left">
+<div className="flex sm:space-x-4 space-x-2 sm:mb-8 mb-4">
+<Image
+     src="/porto-5.webp"
+     alt=""
+     width="400"
+     height="10"
+     className="w-auto  rounded-[10px]"
+   />
+    <Image
+     src="/porto-6.webp"
+     alt=""
+     width="400"
+     height="10"
+     className="w-auto  rounded-[10px]"
+   />
+    <Image
+     src="/porto-7.webp"
+     alt=""
+     width="400"
+     height="10"
+     className="w-auto  rounded-[10px]"
+   />
+    <Image
+     src="/porto-8.webp"
+     alt=""
+     width="400"
+     height="10"
+     className="w-auto  rounded-[10px]"
+     
+   />
+   
+</div>
+
+</marquee>
+<marquee behavior="scroll" direction="left">
+<div className="flex sm:space-x-4 space-x-2 sm:mb-8 mb-4">
+
+<Image
+     src="/porto-9.webp"
+     alt=""
+     width="400"
+     height="10"
+     className="w-auto  rounded-[10px]"
+   />
+    <Image
+     src="/porto-10.webp"
+     alt=""
+     width="400"
+     height="10"
+     className="w-auto  rounded-[10px]"
+   />
+    <Image
+     src="/porto-11.webp"
+     alt=""
+     width="400"
+     height="10"
+     className="w-auto  rounded-[10px]"
+   />
+    <Image
+     src="/porto-12.webp"
+     alt=""
+     width="400"
+     height="10"
+     className="w-auto  rounded-[10px]"
+   />
+    <Image
+     src="/porto-13.webp"
+     alt=""
+     width="400"
+     height="10"
+     className="w-auto  rounded-[10px]"
+   />
+   
+</div>
+</marquee>
+<div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent">
+<button className=" backdrop-filter backdrop-blur-lg bg-white/30 absolute bottom-0 mb-10 left-1/2 transform -translate-x-1/2 sm:px-6 px-4 sm:py-4 py-3 bg-white text-black sm:text-xl text-base font-medium rounded-xl shadow-md hover:bg-orange-50 hover:-translate-y-1 duration-300 text-[20px] leading-[28px] px-[20px] py-[13px] rounded-[5px] font-bold ">View Portfolio</button>
+</div>
+  </div>
+      <div className="my-16 flex items-center justify-center mx-auto ">
+      <Image
+         src="/clients.webp"
+         alt=""
+         width="1000"
+         height="1000"
+         className=" "
+       />
+      </div>
       </div>
     </main>
   );
