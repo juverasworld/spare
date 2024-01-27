@@ -377,38 +377,215 @@ export default function Home() {
         </div>
       </div>
       <div className="sm:flex sm:flex-row sm:space-x-4">
-        <div className="sm:pr-8 sm:pt-8 p-2 bg-slate-50 rounded-3xl sm:h-[400px] h-[450px] overflow-hidden hover:-translate-y-0.5 hover:bg-orange-50 duration-300">
-          <div className="flex md:flex-row flex-col">
-            <div className="relative w-full">
-              <h3 className="text-xl font-medium tracking-tight pb-4">
-                3. Enjoy your new shiny design
-              </h3>
-              <p className="sm:text-lg text-sm text-slate-500">
-              Receive your design updates within 1-3 business days. Not satisfied? No problem. We will design again until you are 100% happy
-              </p>
-              
-<div className="absolute bottom-0 left-0 right-0 mx-auto">
-<Image
-                  src="/random.webp"
-                  alt=""
-                  width="400"
-                  height="10"
-                  className="w-auto"
-                />
-</div>
-            </div>
-            <div className="sm:p-4 p-2">
-            <Image
+        <div className="sm:basis-5/6 pb-4">
+          <div className="sm:pr-8 sm:pt-8 p-2 bg-slate-50 rounded-3xl sm:h-[400px] h-[450px] overflow-hidden hover:-translate-y-0.5 hover:bg-orange-50 duration-300">
+            <div className="flex md:flex-row flex-col">
+              <div className="relative w-full">
+                <h3 className="text-xl font-medium tracking-tight pb-4">
+                  3. Enjoy your new shiny design
+                </h3>
+                <p className="sm:text-lg text-sm text-slate-500">
+                  Receive your design updates within 1-3 business days. Not
+                  satisfied? No problem. We will design again until you are 100%
+                  happy
+                </p>
+
+                <div className="absolute top-[100%] md:flex hidden left-0 right-0 mx-auto">
+                  <Image
+                    src="/random.webp"
+                    alt=""
+                    width="400"
+                    height="10"
+                    // className="w-auto"
+                  />
+                </div>
+              </div>
+              <div className="sm:p-4 p-2">
+                <Image
                   src="/shiny-Design.webp"
                   alt=""
-                  width="400"
-                  height="10"
-                  className="w-auto"
+                  width="500"
+                  height="500"
+                  className="w-full"
                 />
+              </div>
             </div>
           </div>
         </div>
+        <div className="basis-2/6">
+          <div className="bg-gradient-to-br from-purple-400 via-purple-500 to-pink-500 p-8 rounded-3xl sm:h-[400px] h-[100px] flex justify-center items-center text-white hover:-translate-y-0.5 duration-300">
+            <h2 className="sm:text-xl text-lg font-medium p-4-">
+              Any Questions?
+              <span className="underline">
+                Talk to us
+              </span>
+            </h2>
+          </div>
+        </div>
       </div>
+    
+      <div className=" my-16">
+        <div className="items-center my-16 text-center flex justify-center container mx-auto flex-col">
+          <p className="sm:text-4xl text-2xl font-bold py-4 tracking-tighter">
+           Simple Pricing
+          </p>
+          <p className="text-slate-600 xl:px-[450px] lg:px-[200px] py-4 text-base px-4">
+            Simple, flat, no hidden-cost. Pay once every month, get all our services, unlimited. Pause or cancel anytime. No question asked.
+          </p>
+        </div>
+      </div>
+      <div className="sm:flex sm:flex-row mx-auto justify-center sm:space-x-6 p-4 sm:space-y-0 space-y-2">
+        <div className="sm:py-8 py-4 sm:px-12 px-6 bg-slate-50 rounded-3xl border border-slate-100">
+<div className="space-y-6 pb-10">
+  <div className="space-y-3">
+    <h4 className="sm:text-3xl text-2xl font-bold tracking-tighter">
+      Trial 
+      <span className="text-slate-500 sm:text-3xl text-2xl tracking-tighter">
+
+      Basic
+      </span>
+    </h4>
+    <h3 className="text-base">
+    Try our services for a week
+    </h3>
+  </div>
+  <h3 className="text-5xl font-bold">$999
+  <span className="text-base text-slate-500 font-normal">/week</span>
+  </h3>
+  <ul className="space-y-4">
+<li className="flex items-center space-x-3 rtl:space-x-reverse">
+  <span className="">Websites and App Design</span>
+</li>
+<li className="flex items-center space-x-3 rtl:space-x-reverse">
+  <span className="">Logos and Brand Design</span>
+</li>
+<li className="flex items-center space-x-3 rtl:space-x-reverse">
+  <span className="">Custom 2D illustrations</span>
+</li>
+  </ul>
+  <div className="">
+    <Link href="/" className="block p-4 w-full border border-black text-center rounded-xl font-medium hover:border-orange-500 hover:text-orange-500 hover:-translate-y-1 hover:scale-100 duration-300">
+    Try Us
+    </Link>
+  </div>
+</div>
+        </div>
+        <div className="sm:py-8 py-4 sm:px-12 px-6 bg-gradient-to-b from-[#ff622f]  to-[#f45235] rounded-3xl border border-slate-100">
+          <div className="space-y-6 pb-10">
+            <div className="space-y-2">
+              <div className="flex flex-row">
+
+              <h3 className="sm:text-3xl text-2xl font-bold text-white tracking-tighter">
+                Monthly
+                <span className="text-white opacity-50 sm:text-3xl text-2xl tracking-tighter">Premium</span>
+              </h3>
+              <p className="sm:px-6 mx-3 px-4 py-2 bg-white rounded-full sm:text-base text-sm text-black">1 Slot Left</p>
+              </div>
+              <div className="">
+                <p className="text-base text-white">
+                  Everything is free plus:
+                </p>
+              </div>
+            </div>
+          </div>
+          <h3 className="text-5xl text-[#fff] font-bold">$2999
+  <span className="text-base text-[#fff]  font-normal">/month</span>
+  </h3>
+          <div className="sm:flex sm:flex-row text-[#fff] my-5 sm:space-x-14">
+          <ul className="space-y-4">
+<li className="flex items-center space-x-3 rtl:space-x-reverse">
+  <span className="">Websites and App Design</span>
+</li>
+<li className="flex items-center space-x-3 rtl:space-x-reverse">
+  <span className="">Logos and Brand Design</span>
+</li>
+<li className="flex items-center space-x-3 rtl:space-x-reverse">
+  <span className="">Custom 2D illustrations</span>
+</li>
+  </ul>
+  <ul className="space-y-4">
+<li className="flex items-center space-x-3 rtl:space-x-reverse">
+  <span className="">Websites and App Design</span>
+</li>
+<li className="flex items-center space-x-3 rtl:space-x-reverse">
+  <span className="">Logos and Brand Design</span>
+</li>
+<li className="flex items-center space-x-3 rtl:space-x-reverse">
+  <span className="">Custom 2D illustrations</span>
+</li>
+  </ul>
+          </div>
+</div>
+      </div>
+     <div className="bg-black">
+      <div className="lg:p-24 p-5 py-14 px-6">
+        <h1 className="lg:text-[68px] text-[32px] lg:px-52 px-5 font-bold tracking-tighter text-center text-white justify-center">
+        Your own dedicated design team, just one click away.
+        </h1>
+        <div className="py-8">
+          <ul className="space-x-6 flex flex-wrap justify-center sm:text-xl text-lg">
+            <li className="flex items-center space-x-3 rtl:space-x-reverse text-white sm:py-0 py-2">Unlimited Revision</li>
+            <li className="flex items-center space-x-3 rtl:space-x-reverse text-white sm:py-0 py-2">Unlimited Request </li>
+            <li className="flex items-center space-x-3 rtl:space-x-reverse text-white sm:py-0 py-2">Cancel Anytime</li>
+          </ul>
+        </div>
+      </div>
+      <div className="">
+        <div className="w-[100%] mx-auto flex items-center justify-center">
+          <Link href="" className="rounded-full bg-gradient-to-tr from-[#00FFA3] via-[#B61AFF] to-yellow-500 p-1 hover:bg-gradient-to-br hover:from-[#B61AFF] hover:via-[#2663FF] hover:to-[#00FFA3] hover:-translate-y-1 hover:scale-100 duration-300">
+            <div className="flex sm:py-8 py-6 sm:px-16 px-12 rounded-full items-center justify-center bg-black back">
+              <h1 className="sm:text-2xl text-xl font-medium text-white">
+
+          Start a Project
+              </h1>
+            </div>
+          </Link>
+        </div>
+      </div>
+     <hr className="h-px my-16 mx-10 bg-gray-200 border-0 dark:bg-gray-700" />
+     <div className="sm:pt-12 pt-6">
+      <div className="sm:flex sm:flex-row">
+        <div className="flex flex-col items-center justify-center">
+        <Image
+              src="/logo.svg"
+              alt=""
+              width="400"
+              height="10"
+              className="w-auto"
+            />
+            <p className="text-slate-700 text-sm">Copyright 2023 Orenji Studio - All rights Reserved</p>
+        </div>
+        <div className="flex-grow sm:pb-0 pb-6"></div>
+<div className="sm:text-right text-left">
+  <p className="pb-4 text-white text-center">
+  Pakem, Sleman, Yogyakarta, Indonesia (55582)
+  </p>
+  <div className="text-white py-4">
+  <footer className="flex items-center justify-center sm:space-x-4 space-x-3">
+<Link href="" className="hover:text-red-600">
+  Dribble
+</Link>
+<span className="text-red-600">•</span>
+<Link href="" className="hover:text-red-600">
+ Behance
+</Link>
+<span className="text-red-600">•</span>
+<Link href="" className="hover:text-red-600">
+Instagram
+</Link>
+<span className="text-red-600">•</span>
+<Link href="" className="hover:text-red-600">
+LinkedIn
+</Link>
+<span className="text-red-600">•</span>
+  </footer>
+  </div>
+</div>
+        
+      </div>
+     </div>
+     </div>
+    
     </main>
   );
 }
