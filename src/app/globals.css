@@ -2,9 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/* font-family: 'SF Pro Display Regular';
+src: url('/font/SF-Pro-Display-Regular.otf') format('opentype');
+
+font-weight: normal;
+font-style: normal;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Work Sans';
+  font-weight: normal;
+  font-style: normal;
+  font-weight: 400;
+  src: url('/font/WorkSans-Regular.ttf') format('ttf');
 }
+
 nav{
   z-index: 1;
   background: #fff;

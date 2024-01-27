@@ -8,11 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        sans: ['Work Sans', 'sans-serif'],
+        inter: ['inter', 'sans-serif'],
       },
+      backgroundImage: (theme) => ({
+        'heroLg': "url('/imgs/heroBg.png')",
+        'heroSm': "url('/imgs/HeroSm.png')",
+        // Add more background URL utilities as needed
+      }),
     },
   },
   plugins: [],
