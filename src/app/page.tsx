@@ -122,7 +122,7 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className="marquee">
+          <div className="marquees">
             <div className="flex sm:space-x-4 space-x-2 sm:mb-8 mb-4">
               <Image
                 src="/porto-9.webp"

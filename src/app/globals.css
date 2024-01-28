@@ -30,6 +30,32 @@ font-style: normal;
   position: relative;
   animation: marquee 10s linear infinite;
 }
+@keyframes marquee {
+  0% {
+    left: 100%;
+  }
+
+  100% {
+    left: -100%;
+  }
+}
+
+
+.marquees {
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  animation: marquees 10s linear infinite;
+}
+@keyframes marquees {
+  0% {
+    left: 100%;
+  }
+
+  100% {
+    left: -100%;
+  }
+}
 nav{
   z-index: 1;
   background: #fff;
