@@ -19,6 +19,17 @@ font-style: normal;
   src: url('/font/WorkSans-Regular.ttf') format('ttf');
 }
 
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  animation: marquee 10s linear infinite;
+}
 nav{
   z-index: 1;
   background: #fff;

@@ -89,8 +89,8 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="marque z-0 my-10 relative">
-          <marquee behavior="scroll" direction="left">
+        <div className="marquee-container z-0 my-10 relative">
+          <div className="marquee">
             <div className="flex sm:space-x-4 space-x-2 sm:mb-8 mb-4">
               <Image
                 src="/porto-5.webp"
@@ -121,8 +121,8 @@ export default function Home() {
                 className="w-auto  rounded-[10px]"
               />
             </div>
-          </marquee>
-          <marquee behavior="scroll" direction="right">
+          </div>
+          <div className="marquee">
             <div className="flex sm:space-x-4 space-x-2 sm:mb-8 mb-4">
               <Image
                 src="/porto-9.webp"
@@ -160,7 +160,7 @@ export default function Home() {
                 className="w-auto  rounded-[10px]"
               />
             </div>
-          </marquee>
+          </div>
           <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent">
             <button className=" backdrop-filter backdrop-blur-lg bg-white/30 absolute bottom-10 mb-10 left-1/2 transform -translate-x-1/2 sm:px-6 px-4 sm:py-4 py-3 bg-white text-black sm:text-xl text-base font-medium rounded-xl shadow-md hover:bg-orange-50 hover:-translate-y-1 duration-300 text-[20px] leading-[28px] px-[20px] py-[13px] rounded-[5px] font-bold ">
               View Portfolio
