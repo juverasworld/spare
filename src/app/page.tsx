@@ -321,7 +321,7 @@ export default function Home() {
           </p>
           <p className="text-slate-600 xl:px-[450px] lg:px-[200px] py-4 text-base px-4">
             No overcomplicated workflow, no unnecessary bureaucracy or pappers.
-            Let's go straight to realizing your ideas and tackling your business
+            Let &#39; s go straight to realizing your ideas and tackling your business
             problems.
           </p>
         </div>
