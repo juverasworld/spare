@@ -1,6 +1,11 @@
+"use client"
+import React, { createContext } from 'react';
 import Image from "next/image";
 import Navbar from "../../components/navbar";
+// import { fadeIn } from "../variants";
+import { fadeIn } from "../variants"
 
+import { motion } from "framer-motion";
 import Link from "next/link";
 export default function Home() {
   return (
@@ -42,12 +47,22 @@ LOGO
       </nav>
       <div className="body mx-4">
         <div className="relative  z-0 font-bold text-center flex flex-col justify-center  container mx-auto items-center pt-32 lg:pt-48 ">
-          <div className="md:text-[68px]  text-[30px] sm:text-[68px] text-3xl font-bold tracking-tighter  leading-[36px] text-left lg:text-center hero">
+          <motion.div
+            variants={fadeIn("up", 0.3)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.3 }}
+          className="md:text-[68px]  text-[30px] sm:text-[68px] text-3xl font-bold tracking-tighter  leading-[36px] text-left lg:text-center hero">
             Unlimited design, with flat monthly{" "}
             <br className="xl:flex hidden" />
             fee <span className="text-[#ea580c]">.</span>
-          </div>
-          <div className="flex items-center justify-center font-normal my-12">
+          </motion.div>
+          <motion.div 
+           variants={fadeIn("down", 0.3)}
+           initial="hidden"
+           whileInView={"show"}
+           viewport={{ once: false, amount: 0.3 }}
+          className="flex items-center justify-center font-normal my-12">
             <ul className="list-none lg:mr-12 mr-2 lg:flex inline">
               <li className="relative pl-5 flex text-[20px] leading-[28px] items-center text-[#000]">
                 <span className="text-[#ea580c] my-2 font absolute left-0">
@@ -72,8 +87,10 @@ LOGO
                 Unlimited Request
               </li>
             </ul>
-          </div>
-          <div className="relative  ">
+          </motion.div>
+          <div 
+         
+          className="relative  ">
             <button className="text-[20px] sm:px-[32px] sm:py-[22px] py-4 px-14 sm:text-xl text-lg tracking-tight font-medium text-center btn-gradient-orenji hover:shadow-xl hover:shadow-orange-200/50 hover:-translate-y-1 hover:scale-100 duration-300 leading-[28px] bg-[#ea580c] text-[#fff] py-6 px-8 rounded-xl">
               Start up your dream Project
             </button>
@@ -168,16 +185,27 @@ LOGO
             </button>
           </div>
         </div>
-        <div className="my-16 flex items-center justify-center mx-auto ">
+        <motion.div
+            variants={fadeIn("up", 0.3)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.3 }}
+        className="my-16 flex items-center justify-center mx-auto ">
           <Image
+          
             src="/clients.webp"
             alt=""
             width="1000"
             height="1000"
             className=" "
           />
-        </div>
-        <div className="items-center text-center flex justify-center container mx-auto flex-col">
+        </motion.div>
+        <motion.div
+            variants={fadeIn("down", 0.3)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.3 }}
+        className="items-center text-center flex justify-center container mx-auto flex-col">
           <p className="sm:text-4xl text-2xl font-bold py-4 tracking-tighter">
             Great design, zero-hassle.
           </p>
@@ -186,7 +214,7 @@ LOGO
             creative power. Not just 1-man-show with couple of outsourced
             designers like many others.
           </p>
-        </div>
+        </motion.div>
       </div>
       <div className="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-4 p-2">
         <div className="container mx-auto sm:p-8 p-6 border rounded-xl hover:-translate-y-1 hover:border-orange-300 duration-300">
@@ -315,7 +343,12 @@ LOGO
           What makes us different {">"}
         </button>
       </div>
-      <div className="">
+      <motion.div 
+          variants={fadeIn("up", 0.3)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.3 }}
+      className="">
         <div className="items-center text-center flex justify-center container mx-auto flex-col">
           <p className="sm:text-4xl text-2xl font-bold py-4 tracking-tighter">
             How does it work.
@@ -326,9 +359,14 @@ LOGO
             problems.
           </p>
         </div>
-      </div>
+      </motion.div>
       <div className="sm:p-0 p-4">
-        <div className="sm:flex sm:flex-row sm:space-x-4 sm:py-2">
+        <motion.div
+            variants={fadeIn("down", 0.3)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.3 }}
+        className="sm:flex sm:flex-row sm:space-x-4 sm:py-2">
           <div className="sm:basis-3/6 pb-4">
             <div className="pt-8 pl-8 pr-8 pb-5 bg-slate-50 rounded-3xl sm:h-[400px] h-auto hover:-translate-y-0.5 hover:bg-orange-50 duration-300">
               <div className="">
@@ -375,9 +413,14 @@ LOGO
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
-      <div className="sm:flex sm:flex-row sm:space-x-4">
+      <motion.div
+          variants={fadeIn("up", 0.3)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.3 }}
+      className="sm:flex sm:flex-row sm:space-x-4">
         <div className="sm:basis-5/6 pb-4">
           <div className="sm:pr-8 sm:pt-8 p-2 bg-slate-50 rounded-3xl sm:h-[400px] h-[450px] overflow-hidden hover:-translate-y-0.5 hover:bg-orange-50 duration-300">
             <div className="flex md:flex-row flex-col">
@@ -423,7 +466,7 @@ LOGO
             </h2>
           </div>
         </div>
-      </div>
+      </motion.div>
     
       <div className=" my-16">
         <div className="items-center my-16 text-center flex justify-center container mx-auto flex-col">
