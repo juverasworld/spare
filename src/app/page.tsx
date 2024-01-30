@@ -7,14 +7,15 @@ export default function Home() {
     <main className="font-sans">
       <nav className="py-5 border-b-[1px] w-[100%] font-sans fixed z-24 text-[16px] leading-[24px] ">
         <div className="flex w-[100%] items-center justify-between pr-1">
-          <Link href="/">
-            <Image
+          <Link href="/" className="font-bold">
+            {/* <Image
               src="/logo.svg"
               alt=""
               width="400"
               height="10"
               className="w-auto"
-            />
+            /> */}
+LOGO
           </Link>
           <div className="lg:flex hidden  ">
             <Link className="nav mr-10" href="#pricing">
