@@ -1,6 +1,6 @@
 // Example component using Three.js
 import React, { useEffect } from 'react';
-import * as THREE from 'three';
+import * as THREE from 'three'; 
 
 const ThreeCanvasComponent = () => {
   useEffect(() => {
@@ -50,12 +50,12 @@ const ThreeCanvasComponent = () => {
   }, []);
 
   return (
-    <div className="w-[100%] canvas" >
+    <div className="w-[100%] canvas bg-white" >
 
         <canvas
         className='overflow-hidden'
           data-engine="three.js r158"
-          style={{ display: 'block', width: '100%', height: '800px', touchAction: 'none', overflow: "hidden" }}
+          style={{ display: 'block', width: '100%', height: '500px', backgroundColor: "white", touchAction: 'none', overflow: "hidden" }}
         ></canvas>
     </div>
   );

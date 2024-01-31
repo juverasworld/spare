@@ -572,7 +572,11 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-black">
+    <div className="">
+    <ThreeCanvasComponent/>
+    </div>
+      
+            <div className="bg-black">
         <div className="lg:p-24 p-5 py-14 px-6">
           <h1 className="lg:text-[68px] text-[32px] lg:px-52 px-5 font-bold tracking-tighter text-center text-white justify-center">
             Your own dedicated design team, just one click away.
@@ -591,7 +595,7 @@ export default function Home() {
             </ul>
           </div>
         </div>
-        <ThreeCanvasComponent/>
+       
         <div className="">
           <div className="w-[100%] mx-auto flex items-center justify-center">
             <Link
