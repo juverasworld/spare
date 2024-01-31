@@ -23,7 +23,10 @@ font-style: normal;
   width: 100%;
   overflow: hidden;
 }
-
+.canvas{
+  width: 100%;
+  overflow: hidden;
+}
 .marquee {
   white-space: nowrap;
   overflow: hidden;
